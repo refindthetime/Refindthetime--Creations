@@ -1,3 +1,15 @@
 body {background-image: url("");
 		background-repeat: ;
+		background-color: black;
+		color: white;
+}
+
+.well{
+	color:black;
+}
+
+#Youtube{
+	color: red;
+	text-decoration: underline;
+	text-decoration-color: white;
 }
