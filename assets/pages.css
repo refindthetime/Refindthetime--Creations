@@ -9,7 +9,25 @@ body {background-image: url("");
 }
 
 #Youtube{
-	color: red;
-	text-decoration: underline;
-	text-decoration-color: white;
+	color: maroon;
+}
+
+h3 {
+	color: royalblue;
+	
+}
+
+#videos {
+	background-color: maroon;
+	border-color: transparent;
+
+}
+
+#pp {
+	color: white;
+	background-color: transparent;
+}
+
+.page-header {
+	color: orange;
 }
