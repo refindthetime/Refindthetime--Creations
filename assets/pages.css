@@ -28,6 +28,15 @@ h3 {
 	background-color: transparent;
 }
 
-.page-header {
+#page-header {
 	color: orange;
+}
+
+#jumbo{
+	background-color: gray;
+}
+
+#homepage {
+	color: white;
+	background-color: transparent;
 }

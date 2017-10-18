@@ -4,7 +4,8 @@
 	<title>Refindthetime Creations</title>
   <link rel="icon" href="assets/images/cartoon.png">
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
 <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -13,21 +14,26 @@
 </head>
 
 <body>
-<div class="container-fluid">
-  <div class="row">
-  
-   <div class="col-xs-12 col-md-6"><div class="page-header">
-   <h1>Refindthetime Creations <small>By Derek Cassel</small></h1></div></div>
- 
-  <div class="col-xs-4 col-md-6">
-  <ul class="nav nav-justified">
-  <li role="presentation" class="active"><a href="index.html">Home</a></li>
-  <li role="presentation"><a href="projects.html">Portfolio</a></li>
-  <li role="presentation"><a href="contact.html">Contact</a></li>
-   <li role="presentation"><a href="refindthetimeyoutube.html">Youtube Channel</a></li>
-</ul></div>	 
- </div>
+  <nav class="navbar  navbar-expand-sm navbar-dark bg-dark">
+ <ul class="navbar-nav mr-auto">
+  <li class="nav-toggler"><a class="navbar-brand" href="index.html">Home</a></li>
+  <li class="nav-toggler"><a class="navbar-brand" href="aboutme.html">About Me</a></li>
+  <li class="nav-toggler"><a class="navbar-brand" href="projects.html">Portfolio</a></li>
+  <li class="nav-toggler"><a class="navbar-brand" href="contact.html">Contact</a></li>
+   <li class="nav-toggler"><a class="navbar-brand" href="refindthetimeyoutube.html">Youtube Channel</a></li>
+</ul>
+</nav>
 
+
+<div class="jumbotron jumbotron-fluid" id="jumbo">
+  <div class="container">
+  
+    <h1 class="display-3" id="page-header">Refindthetime Creations</h1>
+    <p class="lead">By Derek Cassel</p>
+
+  </div>
+
+</div>
  <div class="container-fluid">
   <h2>Web Projects</h2>
   
@@ -35,7 +41,7 @@
 <!--Links-->
 <div class="col-xs-4 col-sm-6 col-sm-offset-10">
     <h5>Find more on Heroku</h5>
-    <button type="button" class="btn btn-link"><img src="assets/images/github.png" width="100px" class="img-responsive" alt="Github" id="github" onclick=" window.open('https://github.com/refindthetime')"></button>
+    <button type="button" class="btn btn-link"><img src="assets/images/github.png" width="100px" class="img-fluid" alt="Github" id="github" onclick=" window.open('https://github.com/refindthetime')"></button>
     
 
 </div>
@@ -46,15 +52,15 @@
 <div class="row">
 <div class="col-xs-4 col-sm-6">
 <h3>HTML Phaser-based Parrot Game</h3>
-<button type="button" class="btn btn-link"><img src="assets/images/gameMedium.png" class="img-responsive" alt="Polly Want A Cracker" id="PollyWantACracker" onclick=" window.open('https://warm-coast-71866.herokuapp.com/')"></button>
+<button type="button" class="btn btn-link"><img src="assets/images/gameMedium.png" class="img-fluid" alt="Polly Want A Cracker" id="PollyWantACracker" onclick=" window.open('https://warm-coast-71866.herokuapp.com/')"></button>
 <br>
 <h3>HTML Counting and Random Number Game</h3>
-<button type="button" class="btn btn-link"><img src="assets/images/crystal1.png" class="img-responsive" width="200" alt="crystal" id="crystal" onclick=" window.open('https://refindthetime.github.io/week-4-game/')"></button>
+<button type="button" class="btn btn-link"><img src="assets/images/crystal1.png" class="img-fluid" width="200" alt="crystal" id="crystal" onclick=" window.open('https://refindthetime.github.io/week-4-game/')"></button>
 <h3>HTML Task Storing Web Application</h3>
-<button type="button" class="btn btn-link"><img src="assets/images/task++.png" class="img-responsive" width="400" alt="Task++" id="task++" onclick=" window.open('https://alex-117.github.io/WUNC-inc/')"></button>
+<button type="button" class="btn btn-link"><img src="assets/images/task++.png" class="img-fluid" width="400" alt="Task++" id="task++" onclick=" window.open('https://alex-117.github.io/WUNC-inc/')"></button>
 <br>
 <h3>SQL to Heroku Application</h3>
-<button type="button" class="btn btn-link"><img src="assets/images/burger.png" class="img-responsive" width="400" alt="Burger" id="burger" onclick=" window.open('https://floating-reef-78840.herokuapp.com/burgers')"></button>
+<button type="button" class="btn btn-link"><img src="assets/images/burger.png" class="img-fluid" width="400" alt="Burger" id="burger" onclick=" window.open('https://floating-reef-78840.herokuapp.com/burgers')"></button>
 <br>
 </div>
 </div>
