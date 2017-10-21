@@ -30,6 +30,12 @@ h3 {
 
 #page-header {
 	color: orange;
+	font-family: 'Racing Sans One', cursive;
+	font-size: 30pt;
+}
+
+#page-header-books {
+	color: orange;
 	font-family: 'Special Elite', cursive;
 	font-size: 30pt;
 }
