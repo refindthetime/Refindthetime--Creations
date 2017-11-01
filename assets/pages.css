@@ -4,6 +4,8 @@ body {background-image: url("");
 		color: white;
 }
 
+
+
 .well{
 	color:black;
 }
@@ -50,22 +52,18 @@ h3 {
 	background-color: gray;
 }
 
-#jumboBooks{
-	background-color: darkgreen;
-}
+
 
 #nav {
 
 	background-color: darkgray;
 
-
-
 }
 #navItem {
 	color: white;
 
-
 }
+
 #homepage {
 	color: white;
 	background-color: transparent;
@@ -74,13 +72,54 @@ h3 {
 
 
  /*BOOKS*/
+ #book-nav {
+
+	background-color: transparent;
+}
+
+#jumboBooks{
+	background-color: transparent;
+}
+
+#books {background-image: url("./images/book.jpg");
+		background-size:100%;
+		background-position: center;
+		color: white;
+}
+
+#book-head{
+	padding-left: 5%;
+	color: orange;
+	text-shadow: 8px 8px 8px black;
+
+
+
+
+}
+
 .card{
 	color: black;
 	background-color: gray;
 } 
 
+.modal-content{
+	background-color: gray;
+	color: orange;
+
+}
+
+.btn {
+	background-color: darkorange;
+	border-color: darkorange;
+}
 #DREAMS{
 	color: black;
+
+}
+
+#dreams-body{
+	background-color: black;
+	color: white;
 }
 
 #DATA{
