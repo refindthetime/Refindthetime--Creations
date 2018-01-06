@@ -5,7 +5,7 @@ body {background-image: url("");
 }
 
 /*Portfolio*/
-.btn {
+#portButton {
 	background-color: transparent;
 	border-color: transparent;
 }
@@ -112,7 +112,7 @@ h3 {
 
 }
 
-.btn {
+#bookbtn {
 	background-color: darkorange;
 	border-color: darkorange;
 }
