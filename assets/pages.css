@@ -4,7 +4,11 @@ body {background-image: url("");
 		color: white;
 }
 
-
+/*Portfolio*/
+.btn {
+	background-color: transparent;
+	border-color: transparent;
+}
 
 .well{
 	color:black;
