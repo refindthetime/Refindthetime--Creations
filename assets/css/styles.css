@@ -43,7 +43,7 @@ section {
 .section-header h1 {
     /*text-decoration: underline;
 	text-decoration-color: #ffa514;*/
-    color: #ff1c14;
+    color: #580300;
     margin: 0;
 }
 
@@ -55,14 +55,14 @@ section {
 }
 
 .button {
-    background-color: #ff1c14;
+    background-color: #580300;
     color: #fff;
 }
 
 .button:hover {
     background-color: #fff;
-    border: 1px solid #ff1c14;
-    color: #ff1c14;
+    border: 1px solid #580300;
+    color: #580300;
     ;
 }
 
@@ -103,8 +103,8 @@ textarea.materialize-textarea.valid {
 input[type=text]:not(.browser-default):focus:not([readonly]),
 input[type=email]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom-color: #ff1c14;
-    box-shadow: 0 1px 0 0 #ff1c14;
+    border-bottom-color: #580300;
+    box-shadow: 0 1px 0 0 #580300;
 }
 
 
@@ -169,7 +169,7 @@ nav ul li a:active {
 }
 
 .hero-heading-span {
-    color: #ff1c14;
+    color: #580300;
 }
 
 .hero p {
@@ -180,7 +180,7 @@ nav ul li a:active {
 .hero .arrow-down {
     border: 1px solid #fff;
     border-radius: 100px;
-    color: #ff1c14;
+    color: #580300;
     font-size: 40px;
     margin-top: 65px;
     opacity: .5;
@@ -190,8 +190,8 @@ nav ul li a:active {
 .hero .arrow-down:hover,
 .hero .arrow-down:active {
     opacity: 1;
-    border-color: #ff1c14;
-    color: #ff1c14;
+    border-color: #580300;
+    color: #580300;
 }
 
 /*=====================*/
@@ -290,7 +290,7 @@ nav ul li a:active {
 }
 
 .view-application {
-    color: #ff1c14;
+    color: #580300;
     transition: color .2s;
 }
 
@@ -327,7 +327,7 @@ nav ul li a:active {
 }
 
 .view-application {
-    color: #ff1c14;
+    color: #580300;
     transition: color .2s;
 }
 
@@ -372,7 +372,7 @@ nav ul li a:active {
 }
 
 .alternative-contact-icon:hover {
-    color: #ff1c14;
+    color: #580300;
 }
 
 #text-center{

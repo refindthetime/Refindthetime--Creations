@@ -17,11 +17,13 @@ body {
     background-image: url('../images/youtubeback.jpg');
     background-position: center;
     font-family: 'Roboto Mono', monospace;
+    color: #ffffff
 }
 
 p {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 22px;
+    color: #fff
 }
 
 .main-container-background {
@@ -33,7 +35,7 @@ p {
 section {
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     padding-bottom: 50px;
-    background-color: #011864a1;
+    background-color: #002505c4;
 }
 
 .section-header {
@@ -248,7 +250,7 @@ nav ul li a:active {
     font-size: 100px;
     transition: color 0.2s;
 }
-.youtube-contact-icon {
+#youtubeicon {
     color: rgb(202, 0, 0);
     font-size: 100px;
     transition: color 0.2s;
@@ -262,7 +264,7 @@ nav ul li a:active {
 .alternative-contact-icon:hover {
     color: #ff9900;
 }
-.youtube-contact-icon:hover {
+#youtubeicon:hover {
     color: #ffffff;
 }
 
