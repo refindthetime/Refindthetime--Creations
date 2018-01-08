@@ -159,13 +159,7 @@ nav ul li a:active {
 }
 
 .hero {
-    color: #ffffff;
-    position: relative;
-    text-align: center;
-    top: 30%;
-}
-.goback {
-    color: #ffffff;
+    color: #a5a5a5;
     position: relative;
     text-align: center;
     top: 30%;

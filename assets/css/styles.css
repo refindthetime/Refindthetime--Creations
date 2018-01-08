@@ -157,7 +157,7 @@ nav ul li a:active {
 }
 
 .hero {
-    color: #ffffff;
+    color: #a5a5a5;
     position: relative;
     text-align: center;
     top: 30%;
@@ -307,7 +307,7 @@ nav ul li a:active {
 }
 
 .card .card-image {
-    height: 450px;
+    height: auto;
     width: 100%;
 }
 
