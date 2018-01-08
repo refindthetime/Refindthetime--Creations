@@ -2,111 +2,191 @@
 <html>
 
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-  <title>Refindthetime Creations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Derek Cassel Portfolio</title>
+  <!-- Google Font: Nunito & Roboto -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Roboto+Mono" rel="stylesheet">
+  <!-- Import Google Icon Font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Import Ionicon -->
+  <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="assets/css/materialize.css">
+  <!-- styles.css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/youtubestyles.css">
+  <!-- favicon -->
   <link rel="icon" href="assets/images/cartoon.png">
-  <!-- Latest compiled and minified CSS boostrap-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
-    crossorigin="anonymous">
-
-  <!--jquery and plugins-->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="assets/pages.css">
 </head>
 
 <body>
-  <nav class="navbar  navbar-expand-sm navbar-dark" id="nav">
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link" id="navItem" href="index.html" data-toggle="tooltip" data-placement="bottom" title="Click to go Home">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="navItem" href="aboutme.html" data-toggle="tooltip" data-placement="bottom" title="Learn more about me!">About Me </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="navItem" href="web-development.html" data-toggle="tooltip" data-placement="bottom" title="Check out some cool projects!">Portfolio </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="navItem" href="youtube.html" data-toggle="tooltip" data-placement="bottom" title="Minecraft Family by refindthetime">Youtube Channel </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="navItem" href="books.html" data-toggle="tooltip" data-placement="bottom" title="Book lovers and agents welcome!">Books </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="navItem" href="contact.html" data-toggle="tooltip" data-placement="bottom" title="Need to get in touch?">Contact</a>
-      </li>
-    </ul>
-  </nav>
-
-  <div class="jumbotron jumbotron-fluid" id="jumbo">
-    <div class="container">
-
-      <h1 class="display-3" id="youtube-page-header">Minecraft Family</h1>
-      <p class="lead">by refindthetime</p>
-
+  <!-- HEADER -->
+  <header id="section-header">
+    <nav>
+      <div class="nav-wrapper container">
+        <a href="#section-header" class="brand-logo">Creator Kindom
+        </a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a id="backhome" href="index.html" title="Back to Home">Home</a>
+          </li>
+          <li id="nav">
+            <a href="#section-header">Top</a>
+          </li>
+          <li id="nav" class="active">
+            <a href="#section-videos">Videos</a>
+          </li>
+          <li id="nav">
+            <a href="#section-contact">Contact</a>
+          </li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li>
+            <a id="backhome" href="index.html" title="Back to Home">Home</a>
+          </li>
+          <li>
+            <a href="#section-header">Top</a>
+          </li>
+          <li>
+            <a href="#section-videos">Videos</a>
+          </li>
+          <li>
+            <a href="#section-contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero">
+      <h1>
+        <span class="hero-heading-span">D</span>erek
+        <span class="hero-heading-span">C</span>assel
+      </h1>
+      <p>Youtuber @ Creator Kingdom - Gaming and Learning</p>
+      <p>Feel free to Subscribe!</p>
+      <p>
+        <a href="https://www.youtube.com/channel/UCUvoINf892xedkykaeYZkPA" title="Youtube" target="_top">
+          <i class="icon ion-social-youtube youtube-contact-icon"></i>
+        </a>
+      </p>
+      <a href="#section-videos" id="hero-arrow-down" class="brand-logo">
+        <i class="material-icons arrow-down">arrow_downward</i>
+      </a>
     </div>
-
-  </div>
-  <div class="container-fluid">
-    <br>
-    <h2 id="Youtube">YouTube Playlists</h2>
-    <br>
-    <div class="row">
-      <div class="col-xs-6 col-md-6">
-        <br>
-        <h3>Creator Vlogs</h3>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="315" class="embed-responsive-item rounded-0 border border-danger" src="https://www.youtube.com/embed/videoseries?list=PLeeAyGI5_4dj6xhd_m_N-tHL9Ej4e6eGf"
-            allowfullscreen></iframe>
+  </header>
+  <!-- Main Body Content Wrapper -->
+  <div class="container main-container-background">
+    <!-- Section Videos -->
+    <section id="section-videos">
+      <div class="section-header">
+        <h1>
+          <a class="view-application" href="youtube.html">YouTube Playlists</a>
+        </h1>
+      </div>
+      <!-- video playlist-->
+      <div class="row card-space">
+        <div class="video-container">
+          <h3>Welcome to Creator Kingdom</h3>
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/UYOf7WZfBgo" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
-      <br>
-      <div class="col-xs-6 col-md-6">
-        <br>
-        <h3>Pixelmon Minecraft</h3>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="315" class="embed-responsive-item rounded-0 border border-danger" src="https://www.youtube.com/embed/videoseries?list=PLeeAyGI5_4dg-oLljXrVolm3WICVWKd5k"
-            allowfullscreen></iframe>
-        </div>
+    </section>
+  </div>
+  <!-- Section Contact -->
+  <section id="section-contact">
+    <div class="section-header">
+      <h1>Contact</h1>
+    </div>
+    <div class="row" id="text-center">
+      <div class="col-xs-4 col-sm-6">
+        <h4>You can contact me by emailing me:</h4>
+        <ul>
+
+          <h5>
+            <i class="material-icons computer">computer</i>Web Development/Coding:</h5>
+          <li>
+            derekdcassel@gmail.com
+          </li>
+          <h5>
+            <i class="material-icons book">book</i>Books: </h5>
+          <li>
+            derekdcassel@gmail.com
+          </li>
+          <h5>
+            <i class="material-icons youtube">video_library</i>Youtube: </h5>
+          <li>refindthetime@gmail.com</li>
+        </ul>
       </div>
     </div>
-  </div>
-  <br>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-6 col-md-6">
-        <br>
-        <h3>Creativerse</h3>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="315" class="embed-responsive-item rounded-0 border border-danger" src="https://www.youtube.com/embed/videoseries?list=PLeeAyGI5_4dh2u0ZkTHVHduFpZ9vLQwGa"
-            allowfullscreen></iframe>
+    <div class="alternative-contact-wrapper" id="text-center">
+      <h5>Else, feel free to reach me any other the ways below as well!</h6>
+        <div class="contact-info">
+          <div class="row">
+            <div class="col m4 s12 alternative-contact-options">
+              <div>
+                <a href="https://www.youtube.com/channel/UCUvoINf892xedkykaeYZkPA" title="Youtube" target="_top">
+                  <i class="icon ion-social-youtube alternative-contact-icon"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col m4 s12 alternative-contact-options">
+              <div>
+                <a href="https://www.linkedin.com/in/derekcassel/" title="Linkedin" target="_blank">
+                  <i class="icon ion-social-linkedin alternative-contact-icon"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col m4 s12 alternative-contact-options">
+              <div>
+                <a href="https://github.com/refindthetime" title="Github" target="_blank">
+                  <i class="icon ion-social-github alternative-contact-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col m4 s12 alternative-contact-options">
+              <div>
+                <a href="https://www.facebook.com/CreatorKingdom/" title="Facebook" target="_top">
+                  <i class="icon ion-social-facebook alternative-contact-icon"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col m4 s12 alternative-contact-options">
+              <div>
+                <a href="https://twitter.com/refindthetime" title="Twitter" target="_top">
+                  <i class="icon ion-social-twitter alternative-contact-icon"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col m4 s12 alternative-contact-options">
+              <div>
+                <a href="https://refindthetime.blogspot.com/" title="Blogger" target="_top">
+                  <i class="icon ion-social-google alternative-contact-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <br>
-      <div class="col-xs-6 col-md-6">
-        <br>
-        <h3>Drop Alive</h3>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="315" class="embed-responsive-item rounded-0 border border-danger" src="https://www.youtube.com/embed/videoseries?list=PLeeAyGI5_4dhxaVsJJ5AAPgE9S69cCaZl"
-            allowfullscreen></iframe>
-          </iframe>
-        </div>
-      </div>
     </div>
-  </div>
-  <br>
+  </section>
 
-  </style>
-  <footer>
-    <div class="container">
-      Copyright &copy; 2017 Derek Cassel
+  <!-- Footer -->
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+        © 2018 Derek Cassel
+      </div>
     </div>
   </footer>
+  <!-- Script Tags -->
+  <!-- jQuery cdn -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="assets/js/materialize.js"></script>
+  <!-- script.js -->
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
