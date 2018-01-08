@@ -25,7 +25,7 @@ p {
 }
 
 .main-container-background {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: transparent;
     border-left: 2px solid #afafaf;
     border-right: 2px solid #afafaf;
 }
@@ -33,7 +33,7 @@ p {
 section {
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     padding-bottom: 50px;
-    background-color: #4d4d4d36;
+    background-color: #011864a1;
 }
 
 .section-header {
@@ -140,7 +140,7 @@ nav {
 }
 
 nav ul li.active {
-    background: #1e1e1e;
+    background: #3b2f2f;
 }
 
 nav ul li a:link,
@@ -204,10 +204,7 @@ nav ul li a:active {
 
 /*=====================*/
 
-#section-videos{
-    background: #b3b3b3b4;
-    
-}
+
 
 .view-application {
     color: #ff9900;

@@ -127,7 +127,7 @@ header {
 }
 
 nav {
-    background-color: #1c1c1c;
+    background-color: #580300;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
     position: fixed;
     z-index: 999;
@@ -138,7 +138,7 @@ nav {
 }
 
 nav ul li.active {
-    background: #1e1e1e;
+    background: #3b2f2f;
 }
 
 nav ul li a:link,
@@ -153,7 +153,7 @@ nav ul li a:active {
 }
 
 .active a {
-    color: #ff1c14;
+    color: #ffffff;
 }
 
 .hero {
@@ -271,14 +271,22 @@ nav ul li a:active {
 
 .card .card-image {
     height: auto;
-    width: 100%;
     background: rgb(6, 0, 63);
 }
 
+#magicMenu {
+    height: auto;
+    width: auto;
+    text-align: center;
+    align-content: center;
+    background: transparent;
+}
+
 #magic {
-    padding: 2%;
-    height: 100%;
-    width: 100%;
+    padding: 1%;
+    height: 55%;
+    width: 50%;
+    background: rgb(6, 0, 63);
 }
 
 .view-application {
@@ -302,18 +310,20 @@ nav ul li a:active {
 
 /*=====================*/
 
-.card {
-    height: 100%;
+#dreams {
+    height: 600px;
+    width: 600px;
+    text-align: center;
+    align-content: center;
 }
-
 .card .card-image {
     height: auto;
-    width: 100%;
+    width: auto;
+    background-color: transparent;
 }
 
 .card-image img {
-    height: 100%;
-    width: 100%;
+    height: auto;
 }
 
 .view-application {
