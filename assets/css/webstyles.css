@@ -219,18 +219,39 @@ nav ul li a:active {
 }
 
 .card .card-image {
-    height: 450px;
+    height: auto;
     width: 100%;
     
 }
 
-.card-image img {
-    padding: 3%;
-    height: 80%;
-    width: 60%;
-    
+
+
+#magic {
+    padding: 1%;
+    height: 55%;
+    width: 50%;
+    background: rgb(6, 0, 63);
+}
+#polly {
+    height: auto;
+    width: 100%;
+
+}
+#task {
+    height: auto;
+    width: auto;
 }
 
+#crystal {
+    height: auto;
+    width: 400px;
+}
+
+#burger {
+    height: auto;
+    width: 400px;
+    
+}
 .view-application {
     color: #4e1d8d;
     transition: color .2s;

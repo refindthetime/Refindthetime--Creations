@@ -270,11 +270,13 @@ nav ul li a:active {
 }
 
 .card .card-image {
-    height: 450px;
+    height: auto;
     width: 100%;
+    background: rgb(6, 0, 63);
 }
 
-.card-image img {
+#magic {
+    padding: 2%;
     height: 100%;
     width: 100%;
 }
