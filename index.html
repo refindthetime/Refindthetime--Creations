@@ -2,90 +2,289 @@
 <html>
 
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
-  <title>Refindthetime Creations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Derek Cassel Portfolio</title>
+  <!-- Google Font: Nunito & Roboto -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Roboto+Mono" rel="stylesheet">
+  <!-- Import Google Icon Font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Import Ionicon -->
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="assets/css/materialize.css">
+  <!-- styles.css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <!-- favicon -->
   <link rel="icon" href="assets/images/cartoon.png">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
-    crossorigin="anonymous">
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="assets/pages.css">
 </head>
 
 <body>
-  <nav class="navbar  navbar-expand-sm navbar-dark" id="nav">
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link" id="navItem" href="index.html" data-toggle="tooltip" data-placement="bottom" title="Click to go Home">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="navItem" href="aboutme.html" data-toggle="tooltip" data-placement="bottom" title="Learn more about me!">About Me </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="navItem" href="web-development.html" data-toggle="tooltip" data-placement="bottom" title="Check out some cool projects!">Portfolio </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="navItem" href="youtube.html" data-toggle="tooltip" data-placement="bottom" title="Minecraft Family by refindthetime">Youtube Channel </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="navItem" href="books.html" data-toggle="tooltip" data-placement="bottom" title="Book lovers and agents welcome!">Books </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="navItem" href="contact.html" data-toggle="tooltip" data-placement="bottom" title="Need to get in touch?">Contact</a>
-      </li>
-    </ul>
-  </nav>
-
-
-  <div class="jumbotron jumbotron-fluid" id="jumbo">
-    <div class="container">
-
-      <h1 class="display-3" id="page-header">Refindthetime Creations</h1>
-      <p class="lead">By Derek Cassel</p>
-
+  <!-- HEADER -->
+  <header id="section-header">
+    <nav>
+      <div class="nav-wrapper container">
+        <a href="#section-header" class="brand-logo">
+          DC Creations
+        </a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li id="nav" class="active">
+            <a href="#section-header">Home</a>
+          </li>
+          <li id="nav">
+            <a href="#section-about">About</a>
+          </li>
+          <li id="nav">
+            <a href="#section-portfolio">Portfolio</a>
+          </li>
+          <li id="nav">
+            <a href="#section-books">Books</a>
+          </li>
+          <li id="nav">
+            <a href="#section-contact">Contact</a>
+          </li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li id="nav">
+            <a href="#section-header">Home</a>
+          </li>
+          <li id="nav">
+            <a href="#section-about">About</a>
+          </li>
+          <li id="nav">
+            <a href="#section-portfolio">Portfolio</a>
+          </li>
+          <li id="nav">
+            <a href="#section-books">Books</a>
+          </li>
+          <li id="nav">
+            <a href="#section-contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero">
+      <h1>
+        <span class="hero-heading-span">D</span>erek
+        <span class="hero-heading-span">C</span>assel
+      </h1>
+      <p>Full-stack Web Developer and Professional Creator</p>
+      <a href="#section-portfolio" id="hero-arrow-down" class="brand-logo">
+        <i class="material-icons arrow-down">arrow_downward</i>
+      </a>
     </div>
-
-  </div>
-
-  <div class="container-fluid">
-    <h2>Hi there! </h2>
-    <div class="row">
-
-      <div class="col-xs-8 col-sm-6">
-
-        <div id="homepage" class="card">
-          <p>Welcome to my website! Here you can find everything from my web development, writing, and Youtube projects!</p>
-
-          <p>Try the links above for more information!</p>
-
+  </header>
+  <!-- Main Body Content Wrapper -->
+  <div class="container main-container-background">
+    <!-- Section About Me -->
+    <section id="section-about">
+      <div class="section-header">
+        <h1>About</h1>
+      </div>
+      <div class="about-content">
+        <div class="about-image-container">
+          <img src="assets/images/portfolio-pic.jpg" alt="profile picture">
+        </div>
+        <div class="about-description">
+          <p>Hi, my name is Derek! I am a Full-Stack Developer and Professional Creator who currently has his sights set on
+            a web development(mainly frontend) position. Experienced in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase,
+            Node Js, MySQL. React, React-Native. I am also effecient in PhotoShop and mostly all Microsoft Office products.
+            I have gained a multitude of problem solving skills from my previous work experience and through my English education
+            that easily translates into web development and team environments. I hope to bring to the world imagination and
+            creativity through my developments and other projects.</p>
+          <br>
+          <p>I strive to accomplish my goals of being a successful Creator everyday. I am also well-talented in communication,
+            photography, problem solving, and thinking outside the box. I've worked many different jobs, which has helped
+            broaden my skills and talents. I graduated from Utah State University in May 2016 with a Bachelor's degree in
+            English, Creative Writing emphasis. I also have earned a certificate in Web Develpment for the University of
+            Utah. I always strive to work above and beyond expectations and am a quick learner. I adapt well to new situations
+            and work well independently and in a group setting. I believe that hard work reaps benefits for the self and
+            the employer. My others goals are to be a successful author, but I love to share my talents and personality in
+            every job I work. In my spare time, I make videos for my Youtube channel(Creator Kingdom) and work on my many
+            different novels!</p>
+        </div>
+        <div class="about-buttons">
+          <div>
+            <a class="waves-effect waves-light btn button" href="#section-contact">Contact</a>
+          </div>
+          <div>
+            <a class="waves-effect waves-light btn button">Resume</a>
+          </div>
         </div>
       </div>
-
-      <div class="col-xs-8 col-sm-6">
-
-        <div id="homepage" class="card">
-          <p>Checkout my photoshop and UX/UI skills on My book's Page!</p>
-
-          <p>My Portfolio contains some of my Web Development Projects, including an in-process mobile application!</p>
-
+    </section>
+    <!-- Section Portfolio -->
+    <section id="section-portfolio">
+      <div class="section-header">
+        <h1>
+          <a class="view-application" href="web-development.html">Web Development Portfolio</a>
+        </h1>
+        <h5>
+          <i class="material-icons arrow-up">arrow_upward</i>Click above for more projects!
+          <i class="material-icons arrow-up">arrow_upward</i>
+        </h5>
+      </div>
+      <div class="row card-space">
+        <div class="card portfolio-piece">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/images/owl.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Magic Menu
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a class="view-application" href="https://lagrangepoint2.github.io/magic-menu/#" target="_blank">View Application</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Magic Menu
+              <i class="material-icons right">close</i>
+            </span>
+            <p>This React-native mobile application was completed with myself and a group of others in one month. We continue
+              to develop the app and edit the code structure. </p>
+            <p>Want to see more projects like this? Go to my
+              <a class="nav-link" href="web-development.html">Portfolio </a> page!</p>
+          </div>
         </div>
       </div>
+    </section>
+    <!-- Section Books -->
+    <section id="section-books">
+      <div class="section-header">
+        <h1>
+          <a class="view-application" href="books.html">Books</a>
+        </h1>
+        <h5>
+          <i class="material-icons arrow-up">arrow_upward</i>Click above for more books in progress!
+          <i class="material-icons arrow-up">arrow_upward</i>
+        </h5>
+      </div>
+      <div class="row card-space">
+        <div class="card books-piece">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/images/dreams.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Dreams the Heart Remembers
+              <i class="material-icons right">more_vert</i>
+            </span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Dreams the Heart Remembers
+              <i class="material-icons right">close</i>
+            </span>
+            <div class="modal-body" id="dreams-body">
+              <p>Genre: Young Adult/Adventure</p>
+              <p>Type: Novel</p>
+              <p>Jacob Crawding has acquired a gift that enables him to enter into other's dreams. He has a hard time understanding
+                the purpose of his gift, and the strange dream that seems to be connected to it. After being forced to live
+                with Uncle Rick in Hays, WA, Jacob meets the Jenkins family whose grand-daughter lives with them. After a
+                tragic accident, Jacob goes on a journey to discover what worlds may exist outside of his own reality, in
+                hopes to find a way to save what he loves more than anything else.</p>
+            </div>
+            <p>Want to see more projects like this? Go to my
+              <a class="nav-link" href="books.html">Books </a> page!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Contact -->
+    <section id="section-contact">
+      <div class="section-header">
+        <h1>Contact</h1>
+      </div>
+      <div class="row" id="text-center">
+        <div class="col-xs-4 col-sm-6">
+          <h4>You can contact me by emailing me:</h4>
+          <ul>
 
-    </div>
+            <h5>
+              <i class="material-icons computer">computer</i>Web Development/Coding:</h5>
+            <li>
+              derekdcassel@gmail.com
+            </li>
+            <h5>
+              <i class="material-icons book">book</i>Books: </h5>
+            <li>
+              derekdcassel@gmail.com
+            </li>
+            <h5>
+              <i class="material-icons youtube">video_library</i>Youtube: </h5>
+            <li>refindthetime@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="alternative-contact-wrapper" id="text-center">
+        <h5>Else, feel free to reach me any other the ways below as well!</h6>
+          <div class="contact-info">
+            <div class="row">
+              <div class="col m4 s12 alternative-contact-options">
+                <div>
+                  <a href="https://www.youtube.com/channel/UCUvoINf892xedkykaeYZkPA" title="Youtube" target="_top">
+                    <i class="icon ion-social-youtube alternative-contact-icon"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col m4 s12 alternative-contact-options">
+                <div>
+                  <a href="https://www.linkedin.com/in/derekcassel/" title="Linkedin" target="_blank">
+                    <i class="icon ion-social-linkedin alternative-contact-icon"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col m4 s12 alternative-contact-options">
+                <div>
+                  <a href="https://github.com/refindthetime" title="Github" target="_blank">
+                    <i class="icon ion-social-github alternative-contact-icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col m4 s12 alternative-contact-options">
+                <div>
+                  <a href="https://www.facebook.com/CreatorKingdom/" title="Facebook" target="_top">
+                    <i class="icon ion-social-facebook alternative-contact-icon"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col m4 s12 alternative-contact-options">
+                <div>
+                  <a href="https://twitter.com/refindthetime" title="Twitter" target="_top">
+                    <i class="icon ion-social-twitter alternative-contact-icon"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col m4 s12 alternative-contact-options">
+                <div>
+                  <a href="https://refindthetime.blogspot.com/" title="Blogger" target="_top">
+                    <i class="icon ion-social-google alternative-contact-icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
   </div>
-
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 2017 Derek Cassel
+  <!-- Footer -->
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+        © 2018 Derek Cassel
+      </div>
     </div>
   </footer>
+  <!-- Script Tags -->
+  <!-- jQuery cdn -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="assets/js/materialize.js"></script>
+  <!-- script.js -->
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>

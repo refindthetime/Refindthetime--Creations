@@ -1,0 +1,360 @@
+/*===============================*/
+
+
+/*=====Basic Setup/Reusable======*/
+
+
+/*===============================*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-image: url('../images/book.jpg');
+    font-family: 'Roboto Mono', monospace;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.main-container-background {
+    background-color: rgba(255, 255, 255, 1);
+    border-left: 2px solid #afafaf;
+    border-right: 2px solid #afafaf;
+}
+
+section {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-bottom: 50px;
+    background-color: #4d4d4d36;
+}
+
+.section-header {
+    padding: 75px 0;
+    text-align: center;
+    
+}
+
+.section-header h1 {
+    /*text-decoration: underline;
+	text-decoration-color: #ffa514;*/
+    color: #0059ff;
+    margin: 0;
+}
+
+.container .row {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.button {
+    background-color: #0059ff;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #fff;
+    border: 1px solid #0059ff;
+    color: #0059ff;
+    ;
+}
+
+
+
+/*====================================*/
+
+
+/*======MATERIALIZE LABEL COLOR=======*/
+
+
+/*====================================*/
+
+
+/* icon prefix focus color */
+
+.input-field .prefix.active {
+    color: #fff;
+}
+
+
+
+/* valid color */
+
+.input-field input[type=text].valid,
+.input-field input[type=email].valid,
+textarea.materialize-textarea.valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+#label-name.active,
+#label-email.active,
+#label-textarea.active {
+    color: #fff;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom-color: #0059ff;
+    box-shadow: 0 1px 0 0 #0059ff;
+}
+
+
+
+/*===================*/
+
+
+/*======HEADER=======*/
+
+
+/*===================*/
+
+header {
+    background-image: linear-gradient( rgba(0, 0, 0, .8),
+    rgba(0, 0, 0, .6)),
+    url('../images/bookheader.jpg!d');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    background-color: #1c1c1c;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 999;
+}
+
+.nav-wrapper .brand-logo i {
+    font-size: 35px;
+}
+
+nav ul li.active {
+    background: #1e1e1e;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    transition: all .2s;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    background: #1e1e1e;
+    opacity: .8;
+}
+
+.active a {
+    color: #0059ff;
+}
+
+.hero {
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    top: 30%;
+}
+.goback {
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    top: 30%;
+}
+
+.hero h1 {
+    font-size: 7em;
+    margin: 0;
+}
+
+.hero-heading-span {
+    color: #0059ff;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.hero .arrow-down {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #0059ff;
+    font-size: 40px;
+    margin-top: 65px;
+    opacity: .5;
+    transition: all .3s;
+}
+
+.hero .arrow-down:hover,
+.hero .arrow-down:active {
+    opacity: 1;
+    border-color: #0059ff;
+    color: #0059ff;
+}
+
+/*=====================*/
+
+
+/*======Books======*/
+
+
+/*=====================*/
+
+.card {
+    height: 100%;
+}
+
+.card .card-image {
+    height: 450px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.card-image img {
+    height: 100%;
+    width: auto;
+    padding: 2%;
+}
+
+
+#last-books-piece {
+    margin-bottom: 0;
+}
+
+/*=====================*/
+
+
+/*=======Contact=======*/
+
+
+/*=====================*/
+
+#section-contact {
+    padding-bottom: 50px;
+    background: #b3b3b3b4;
+}
+
+.alternative-contact-wrapper {
+    margin-top: 75px;
+}
+
+.alternative-contact-options div {
+    text-align: center;
+}
+
+.alternative-contact-icon {
+    color: #000;
+    font-size: 100px;
+    transition: color 0.2s;
+}
+.back-contact-icon {
+    color: rgb(184, 184, 184);
+    font-size: 45px;
+    transition: color 0.2s;
+}
+
+.alternative-contact-icon:hover {
+    color: #0059ff;
+}
+
+#text-center{
+    text-align: center;
+}
+
+
+
+/*====================*/
+
+
+/*=======Footer=======*/
+
+
+/*====================*/
+
+.page-footer {
+    height: 150px;
+}
+
+.page-footer,
+.page-footer .footer-copyright {
+    background-color: #1c1c1c;
+}
+
+.footer-copyright {
+    margin-top: 30px;
+}
+
+.footer-copyright .container {
+    text-align: center;
+}
+
+
+
+/*===========================*/
+
+
+/*=======Media Queries=======*/
+
+
+/*===========================*/
+
+@media screen and (max-width: 993px) {
+    .about-buttons {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .about-description p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+	.card .card-image {
+		height: 300px;
+	}
+
+    .about-image-container {
+        float: none;
+        margin-bottom: 25px;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .about-image-container img {
+    	height: 250px;
+    	width: 200px;
+    }
+
+    .about-description {
+    	margin-bottom: 25px;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .about-buttons div {
+    	margin: 0;
+    	text-align: center;
+    	width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 603px) {
+	.alternative-contact-icon {
+    	font-size: 100px;
+    }
+}
+
+
+
+
+
