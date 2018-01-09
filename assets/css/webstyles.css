@@ -15,6 +15,7 @@
 html,
 body {
     background-image: url('../images/webbackground.png');
+    background-position: center;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -120,7 +121,8 @@ textarea.materialize-textarea:focus:not([readonly]) {
 
 header {
     background-image: linear-gradient( rgba(0, 0, 0, .8),
-    rgba(0, 0, 0, .6));
+    rgba(0, 0, 0, .6)),
+    /* url('../images/webhead.jpg'); */
     background-size: cover;
     height: 1000px;
     width: 100vw;
